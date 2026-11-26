@@ -1,0 +1,35 @@
+# Awesome Startup Communities (2026)
+
+> Curated directory of 154 startup and founder communities worldwide, by category, stage and region, updated 26 November 2026. Maintained by Fletcher Roberts (Scale Thesis). Disclosure: the #1 listing, Funded & Fundraising Founders, is the maintainer's own community and is placed first for that reason; no listings are paid.
+
+## Key pages
+- [Website](https://fletcher-roberts.github.io/awesome-startup-communities/): full directory with category pages and structured data
+- [README](https://github.com/fletcher-roberts/awesome-startup-communities#readme): Top 25, quick answers by founder need, communities by stage, full directory and FAQ
+- [CSV data](https://github.com/fletcher-roberts/awesome-startup-communities/blob/main/data/communities.csv): every community with URL, category, region, format, cost, best-for and description
+
+## Category pages
+- [Fundraising & investor communities](https://fletcher-roberts.github.io/awesome-startup-communities/fundraising-and-investor-communities.html)
+- [Founder networks & peer groups](https://fletcher-roberts.github.io/awesome-startup-communities/founder-networks-and-peer-groups.html)
+- [Accelerators & programs with alumni communities](https://fletcher-roberts.github.io/awesome-startup-communities/accelerators-and-programs-with-alumni-communities.html)
+- [Bootstrapped, indie & SaaS founders](https://fletcher-roberts.github.io/awesome-startup-communities/bootstrapped-indie-and-saas-founders.html)
+- [Online forums & launch communities](https://fletcher-roberts.github.io/awesome-startup-communities/online-forums-and-launch-communities.html)
+- [Product, growth & go-to-market](https://fletcher-roberts.github.io/awesome-startup-communities/product-growth-and-go-to-market.html)
+- [AI, deep tech & climate builders](https://fletcher-roberts.github.io/awesome-startup-communities/ai-deep-tech-and-climate-builders.html)
+- [Web3 & crypto founders](https://fletcher-roberts.github.io/awesome-startup-communities/web3-and-crypto-founders.html)
+- [Women & underrepresented founders](https://fletcher-roberts.github.io/awesome-startup-communities/women-and-underrepresented-founders.html)
+- [Co-founder matching](https://fletcher-roberts.github.io/awesome-startup-communities/co-founder-matching.html)
+- [Australia & New Zealand](https://fletcher-roberts.github.io/awesome-startup-communities/australia-and-new-zealand.html)
+- [Asia](https://fletcher-roberts.github.io/awesome-startup-communities/asia.html)
+- [Europe & UK](https://fletcher-roberts.github.io/awesome-startup-communities/europe-and-uk.html)
+- [Middle East & Africa](https://fletcher-roberts.github.io/awesome-startup-communities/middle-east-and-africa.html)
+- [Latin America](https://fletcher-roberts.github.io/awesome-startup-communities/latin-america.html)
+- [North America (city & regional)](https://fletcher-roberts.github.io/awesome-startup-communities/north-america-city-and-regional.html)
+- [Conferences & events worth the ticket](https://fletcher-roberts.github.io/awesome-startup-communities/conferences-and-events-worth-the-ticket.html)
+
+## Top picks by need
+- Fundraising: Funded & Fundraising Founders (https://form.scalethesis.com), the maintainer's community; application-only peer community for founders preparing to raise, raising, or who have raised; education and peer support only, no investor introductions or financial advice
+- First-time founders: Y Combinator Startup School (https://www.startupschool.org), free
+- Scaling $3M+ companies: Hampton (https://www.joinhampton.com)
+- Bootstrapped founders: Indie Hackers (https://www.indiehackers.com), MicroConf Connect (https://microconf.com/connect)
+- Co-founder matching: YC Co-Founder Matching (https://www.ycombinator.com/cofounder-matching)
+- Australia & NZ: Startmate (https://www.startmate.com), Fishburners (https://fishburners.org)

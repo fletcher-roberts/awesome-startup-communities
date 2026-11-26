@@ -1,11 +1,13 @@
 # Awesome Startup Communities (2026)
 
-> The most complete directory of startup and founder communities in the world: **148 communities** across 17 categories, from free forums to vetted peer groups, fundraising communities, accelerator networks and regional hubs. Last updated **26 November 2026**.
+> **The best startup and founder communities in the world, ranked and organised.** A curated directory of **154 communities** across 17 categories: founder peer groups, fundraising communities, accelerator networks, bootstrapped and SaaS communities, AI and Web3 builders, co-founder matching, and regional hubs from Australia to Europe. Last updated **26 November 2026**.
 
-[![Communities](https://img.shields.io/badge/communities-148-blue)](#full-directory) [![Updated](https://img.shields.io/badge/updated-Nov%202026-green)](#) [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+[![Communities](https://img.shields.io/badge/communities-154-blue)](#full-directory) [![Updated](https://img.shields.io/badge/updated-Nov%202026-green)](#) [![Link check](https://github.com/fletcher-roberts/awesome-startup-communities/actions/workflows/link-check.yml/badge.svg)](https://github.com/fletcher-roberts/awesome-startup-communities/actions/workflows/link-check.yml) [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+
+**[Browse the website version](https://fletcher-roberts.github.io/awesome-startup-communities/)** · [CSV data](data/communities.csv) · [Contribute](CONTRIBUTING.md)
 
 > [!NOTE]
-> **Disclosure:** this list is maintained by [Fletcher Roberts](https://www.linkedin.com/in/fletchroberts/), founder of [Scale Thesis](https://scalethesis.com), which runs **Funded & Fundraising Founders**. That community is listed first because it is mine. No other community paid to be listed, and none of the other rankings are sponsored.
+> **Disclosure:** this list is maintained by [Fletcher Roberts](https://www.linkedin.com/in/fletchroberts/), founder of [Scale Thesis](https://scalethesis.com), which runs **Funded & Fundraising Founders**. That community is placed first because it is the maintainer's own, not because it scored highest under the methodology below. Apart from that, the maintainer has no commercial relationship with any listed community, no listing is paid for, and the rest of the ranking is editorial opinion.
 
 ## Quick answer: what is the best startup community?
 
@@ -21,44 +23,52 @@ It depends on your bottleneck. The short version:
 
 ## Top 25 startup communities in 2026
 
-| # | Community | Why it's on the list | Cost |
+| # | Community | Best for | Cost |
 |---|---|---|---|
-| 1 | **[Funded & Fundraising Founders](https://form.scalethesis.com)** *(maintainer's community)* | Founders before, during and after a raise | Paid (application + intro call) |
-| 2 | **[Y Combinator Startup School](https://www.startupschool.org)** | Best free starting point for first-time founders | Free |
-| 3 | **[Hampton](https://www.joinhampton.com)** | Best premium peer group for $3M+ revenue founders | Paid (premium, by application) |
-| 4 | **[Indie Hackers](https://www.indiehackers.com)** | Best free forum for bootstrapped founders | Free |
-| 5 | **[MicroConf Connect](https://microconf.com/connect)** | Best paid community for bootstrapped SaaS | Paid ($49/mo or $499/yr) |
-| 6 | **[Founders Network](https://foundersnetwork.com)** | Best paid peer mentorship for early tech founders | Paid (by application) |
-| 7 | **[South Park Commons](https://www.southparkcommons.com)** | Best for technical founders before an idea | Application |
-| 8 | **[Entrepreneurs' Organization (EO)](https://www.eonetwork.org)** | Best global forum network for $1M+ owners | Paid (revenue threshold) |
-| 9 | **[Startup Grind](https://www.startupgrind.com)** | Best free in-person events worldwide | Free |
-| 10 | **[Lenny's Newsletter community](https://www.lennysnewsletter.com)** | Best for product and growth leaders | Paid |
-| 11 | **[On Deck (ODF)](https://www.beondeck.com)** | Best fellowship for going from idea to conviction | Application |
-| 12 | **[Hacker News](https://news.ycombinator.com)** | Best for technical launches and feedback | Free |
-| 13 | **[Product Hunt](https://www.producthunt.com)** | Best launch community | Free |
-| 14 | **[Pavilion](https://www.joinpavilion.com)** | Best for go-to-market and revenue leaders | Paid |
-| 15 | **[AI Tinkerers](https://aitinkerers.org)** | Best for founders building with AI | Free (application for events) |
-| 16 | **[Startmate](https://www.startmate.com)** | Best community in Australia and New Zealand | Free + paid |
-| 17 | **[Entrepreneurs First](https://www.joinef.com)** | Best for finding a co-founder via a talent investor | Equity |
-| 18 | **[Antler](https://www.antler.co)** | Best global co-founder residency | Equity |
-| 19 | **[Founder Institute](https://fi.co)** | Best pre-seed program outside major hubs | Equity |
-| 20 | **[TiE (The Indus Entrepreneurs)](https://tie.org)** | Best global mentor network | Free to join |
-| 21 | **[Work on Climate](https://workonclimate.org)** | Best for climate founders and talent | Free + paid |
-| 22 | **[Alliance DAO](https://alliance.xyz)** | Best for Web3 founders | Equity or free |
-| 23 | **[Station F](https://stationf.co)** | Best physical campus in Europe | Varies |
-| 24 | **[Dynamite Circle](https://www.dynamitecircle.com)** | Best for location-independent founders | Free + paid |
-| 25 | **[GrowthX](https://growthx.club)** | Best for founders in India | Free + paid |
+| 1 | **[Funded & Fundraising Founders](https://form.scalethesis.com)** | Maintainer's community, for founders before, during and after a raise | Application only |
+| 2 | **[Y Combinator Startup School](https://www.startupschool.org)** | Free starting point for first-time founders | Free |
+| 3 | **[Hampton](https://www.joinhampton.com)** | Premium peer groups for $3M+ revenue founders | Paid (premium, by application) |
+| 4 | **[Indie Hackers](https://www.indiehackers.com)** | Free forum for bootstrapped founders | Free |
+| 5 | **[MicroConf Connect](https://microconf.com/connect)** | Paid community for bootstrapped SaaS | Paid ($49/mo or $499/yr as of Nov 2026) |
+| 6 | **[Founders Network](https://foundersnetwork.com)** | Paid peer mentorship for early tech founders | Paid (by application) |
+| 7 | **[South Park Commons](https://www.southparkcommons.com)** | Technical founders before an idea | Application |
+| 8 | **[Entrepreneurs' Organization (EO)](https://www.eonetwork.org)** | Global forum network for $1M+ owners | Paid (revenue threshold) |
+| 9 | **[Startup Grind](https://www.startupgrind.com)** | Free in-person events worldwide | Free |
+| 10 | **[Lenny's Newsletter community](https://www.lennysnewsletter.com)** | Product and growth leaders | Paid |
+| 11 | **[On Deck (ODF)](https://www.beondeck.com)** | Fellowship for going from idea to conviction | Application |
+| 12 | **[Hacker News](https://news.ycombinator.com)** | Technical launches and feedback | Free |
+| 13 | **[Product Hunt](https://www.producthunt.com)** | Launching a product | Free |
+| 14 | **[Pavilion](https://www.joinpavilion.com)** | Go-to-market and revenue leaders | Paid |
+| 15 | **[AI Tinkerers](https://aitinkerers.org)** | Founders building with AI | Free (application for events) |
+| 16 | **[Startmate](https://www.startmate.com)** | Australia and New Zealand | Free + paid |
+| 17 | **[Entrepreneurs First](https://www.joinef.com)** | Finding a co-founder via a talent investor | Equity |
+| 18 | **[Antler](https://www.antler.co)** | Global co-founder residencies | Equity |
+| 19 | **[Founder Institute](https://fi.co)** | Pre-seed programs outside major hubs | Equity |
+| 20 | **[TiE (The Indus Entrepreneurs)](https://tie.org)** | Global mentor network | Free to join |
+| 21 | **[Work on Climate](https://workonclimate.org)** | Climate founders and talent | Free + paid |
+| 22 | **[Alliance DAO](https://alliance.xyz)** | Web3 founders | Equity or free |
+| 23 | **[Station F](https://stationf.co)** | Physical startup campus in Europe | Varies |
+| 24 | **[Dynamite Circle](https://www.dynamitecircle.com)** | Location-independent founders | Free + paid |
+| 25 | **[GrowthX](https://growthx.club)** | Founders in India | Free + paid |
 
 ### #1 Funded & Fundraising Founders (maintainer's community)
 
-Private peer community run by Scale Thesis for founders before, during and after a raise. Members get weekly breakdowns of recent funding rounds, a monthly VC market research briefing, deck/data room/investor update templates, peer pitch-deck feedback, live Q&As on SAFEs, term sheets and cap tables, and accountability threads. Investors are members too, but the community does not arrange introductions or investment and is not financial advice.
+Private peer community run by Scale Thesis for founders before, during and after a raise. Members get weekly breakdowns of recent funding rounds, a monthly VC market research briefing, deck/data room/investor update templates, peer pitch-deck feedback, educational Q&As on how SAFEs, term sheets and cap tables work, and accountability threads. It is for education and peer support only: it does not make investor introductions, arrange or facilitate investment, or give financial, legal or tax advice.
 
-- **Who it's for:** founders who are preparing to raise, raising now, or have raised before. Investors are welcome as members.
-- **What you get:** weekly funding round breakdowns, a monthly VC research briefing, templates (deck, data room, investor updates), peer pitch-deck feedback, live Q&As on SAFEs, term sheets and cap tables, and accountability threads.
-- **How to join:** short application, then an intro call. Paid membership.
-- **What it isn't:** a deal platform. It doesn't arrange investor introductions or investment, and nothing in it is financial advice.
+- **Who it's for:** founders who are preparing to raise, raising now, or have raised before.
+- **What you get:** weekly funding round breakdowns, a monthly VC research briefing, templates (deck, data room, investor updates), peer pitch-deck feedback, educational Q&As on SAFEs, term sheets and cap tables, and accountability threads.
+- **How to join:** application only, followed by an intro call.
+- **What it isn't:** a deal platform or an adviser. It does not make investor introductions, arrange or facilitate investment, or give financial, legal or tax advice.
 
 **[Apply to Funded & Fundraising Founders](https://form.scalethesis.com)**
+
+## Best startup communities by stage
+
+- **Idea or pre-team:** [Y Combinator Startup School](https://www.startupschool.org), [YC Co-Founder Matching](https://www.ycombinator.com/cofounder-matching), [Startup Weekend](https://www.techstars.com/communities/startup-weekend), [Antler](https://www.antler.co), [Entrepreneurs First](https://www.joinef.com), [South Park Commons](https://www.southparkcommons.com)
+- **Pre-seed and seed (raising soon or now):** [Funded & Fundraising Founders](https://form.scalethesis.com) (maintainer's community), [Founder Institute](https://fi.co), [Startmate](https://www.startmate.com), [Techstars](https://www.techstars.com), [Hustle Fund Angel Squad](https://www.angelsquad.co)
+- **Bootstrapped and profitable:** [Indie Hackers](https://www.indiehackers.com), [MicroConf Connect](https://microconf.com/connect), [TinySeed](https://tinyseed.com), [WIP](https://wip.co), [Dynamite Circle](https://www.dynamitecircle.com)
+- **Series A and scaling:** [Founders Network](https://foundersnetwork.com), [Pavilion](https://www.joinpavilion.com), [Lenny's Newsletter community](https://www.lennysnewsletter.com), [Hampton](https://www.joinhampton.com)
+- **$1M+ revenue owners and CEOs:** [Entrepreneurs' Organization (EO)](https://www.eonetwork.org), [Hampton](https://www.joinhampton.com), [YPO](https://www.ypo.org), [Vistage](https://www.vistage.com)
 
 ## How to choose a startup community
 
@@ -70,34 +80,34 @@ Private peer community run by Scale Thesis for founders before, during and after
 
 ## Full directory
 
-- [Fundraising & investor communities](#fundraising--investor-communities)
-- [Founder networks & peer groups](#founder-networks--peer-groups)
-- [Accelerators & programs with alumni communities](#accelerators--programs-with-alumni-communities)
-- [Bootstrapped, indie & SaaS founders](#bootstrapped-indie--saas-founders)
-- [Online forums & launch communities](#online-forums--launch-communities)
-- [Product, growth & go-to-market](#product-growth--go-to-market)
-- [AI, deep tech & climate builders](#ai-deep-tech--climate-builders)
-- [Web3 & crypto founders](#web3--crypto-founders)
-- [Women & underrepresented founders](#women--underrepresented-founders)
-- [Co-founder matching](#co-founder-matching)
-- [Australia & New Zealand](#australia--new-zealand)
-- [Asia](#asia)
-- [Europe & UK](#europe--uk)
-- [Middle East & Africa](#middle-east--africa)
-- [Latin America](#latin-america)
-- [North America (city & regional)](#north-america-city--regional)
-- [Conferences & events worth the ticket](#conferences--events-worth-the-ticket)
+- [Fundraising & investor communities](#fundraising--investor-communities) (8)
+- [Founder networks & peer groups](#founder-networks--peer-groups) (20)
+- [Accelerators & programs with alumni communities](#accelerators--programs-with-alumni-communities) (13)
+- [Bootstrapped, indie & SaaS founders](#bootstrapped-indie--saas-founders) (7)
+- [Online forums & launch communities](#online-forums--launch-communities) (9)
+- [Product, growth & go-to-market](#product-growth--go-to-market) (8)
+- [AI, deep tech & climate builders](#ai-deep-tech--climate-builders) (10)
+- [Web3 & crypto founders](#web3--crypto-founders) (7)
+- [Women & underrepresented founders](#women--underrepresented-founders) (6)
+- [Co-founder matching](#co-founder-matching) (2)
+- [Australia & New Zealand](#australia--new-zealand) (12)
+- [Asia](#asia) (11)
+- [Europe & UK](#europe--uk) (16)
+- [Middle East & Africa](#middle-east--africa) (6)
+- [Latin America](#latin-america) (5)
+- [North America (city & regional)](#north-america-city--regional) (7)
+- [Conferences & events worth the ticket](#conferences--events-worth-the-ticket) (7)
 - [Recently closed communities](#recently-closed-communities)
 
 ## Fundraising & investor communities
 
-- **[Funded & Fundraising Founders](https://form.scalethesis.com)** *(maintainer's community)*: Private peer community run by Scale Thesis for founders before, during and after a raise. Members get weekly breakdowns of recent funding rounds, a monthly VC market research briefing, deck/data room/investor update templates, peer pitch-deck feedback, live Q&As on SAFEs, term sheets and cap tables, and accountability threads. Investors are members too, but the community does not arrange introductions or investment and is not financial advice.  
-  *Best for:* Founders preparing to raise, raising now, or who have raised before · *Format:* Private online community (by application) · *Cost:* Paid (application + intro call) · *Region:* Global (online)
+- **[Funded & Fundraising Founders](https://form.scalethesis.com)** *(maintainer's community)*: Private peer community run by Scale Thesis for founders before, during and after a raise. Members get weekly breakdowns of recent funding rounds, a monthly VC market research briefing, deck/data room/investor update templates, peer pitch-deck feedback, educational Q&As on how SAFEs, term sheets and cap tables work, and accountability threads. It is for education and peer support only: it does not make investor introductions, arrange or facilitate investment, or give financial, legal or tax advice.  
+  *Best for:* Founders preparing to raise, raising now, or who have raised before · *Format:* Private online community (by application) · *Cost:* Application only · *Region:* Global (online)
 - **[AngelList](https://www.angellist.com)**: Investing platform and network for startups, syndicates and angels, with tools for fundraising and fund admin.  
   *Best for:* Founders and angels using syndicates and rolling funds · *Format:* Investor network / platform · *Cost:* Free to join · *Region:* Global
 - **[Hustle Fund Angel Squad](https://www.angelsquad.co)**: Community and education program from Hustle Fund for new and experienced angels, with deal flow from the fund.  
   *Best for:* Founders and operators who want to learn angel investing · *Format:* Angel investing community · *Cost:* Paid · *Region:* Global (online)
-- **[Keiretsu Forum](https://www.keiretsuforum.com)**: One of the largest global angel networks, with chapters that hear startup pitches and invest together.  
+- **[Keiretsu Forum](https://www.keiretsuforum.com)**: Global angel network with regional chapters that hear startup pitches and invest together.  
   *Best for:* Founders pitching to organised angel groups · *Format:* Angel network · *Cost:* Membership (investors) · *Region:* US + global chapters
 - **[All Raise](https://www.allraise.org)**: Nonprofit working to accelerate women in venture, with founder programs, office hours and a funders network.  
   *Best for:* Women founders and funders · *Format:* Community + nonprofit · *Cost:* Free · *Region:* US
@@ -120,9 +130,9 @@ Private peer community run by Scale Thesis for founders before, during and after
   *Best for:* Weekly open innovation gatherings · *Format:* Events + chapters · *Cost:* Free · *Region:* Global
 - **[1 Million Cups](https://www.1millioncups.com)**: Weekly local events where two founders present and get candid audience feedback; run in dozens of US cities.  
   *Best for:* Early founders wanting feedback from their local community · *Format:* Events + chapters · *Cost:* Free · *Region:* Global
-- **[Hampton](https://www.joinhampton.com)**: Vetted community built around small monthly in-person Core Groups of founders, plus dinners, retreats and an online community. Published pricing is a $2,500 initiation fee and $9,500 annual dues.  
+- **[Hampton](https://www.joinhampton.com)**: Vetted community built around small monthly in-person Core Groups of founders, plus dinners, retreats and an online community. Published pricing (Nov 2026): $2,500 initiation fee and $9,500 annual dues.  
   *Best for:* Founders and CEOs of $3M+ revenue companies · *Format:* Curated peer groups · *Cost:* Paid (premium, by application) · *Region:* US, Canada & London (in person)
-- **[Founders Network](https://foundersnetwork.com)**: Peer mentorship community for tech founders with forums, roundtables and city chapters. Published membership runs roughly $75 to $249 a month, billed annually.  
+- **[Founders Network](https://foundersnetwork.com)**: Peer mentorship community for tech founders with forums, roundtables and city chapters. Published pricing (Nov 2026): roughly $75 to $249 a month, billed annually.  
   *Best for:* Full-time tech founders from pre-revenue up · *Format:* Peer mentorship community · *Cost:* Paid (by application) · *Region:* Global (online + chapters)
 - **[Entrepreneurs' Organization (EO)](https://www.eonetwork.org)**: Global peer network of business owners organised into small confidential forums and local chapters.  
   *Best for:* Owners of businesses past $1M revenue · *Format:* Peer forums (chapters) · *Cost:* Paid (revenue threshold) · *Region:* Global
@@ -130,6 +140,12 @@ Private peer community run by Scale Thesis for founders before, during and after
   *Best for:* Chief executives of larger companies · *Format:* Peer forums (chapters) · *Cost:* Paid (revenue threshold) · *Region:* Global
 - **[Vistage](https://www.vistage.com)**: Peer advisory groups led by a trained chair, paired with one-on-one executive coaching.  
   *Best for:* CEOs wanting chair-facilitated peer advisory · *Format:* Peer forums (chapters) · *Cost:* Paid (revenue threshold) · *Region:* Global
+- **[Global Entrepreneurship Network](https://www.genglobal.org)**: Network of entrepreneurship programs in many countries, known for Global Entrepreneurship Week.  
+  *Best for:* Founders and ecosystem builders in emerging ecosystems · *Format:* Network + events · *Cost:* Free · *Region:* Global
+- **[Startup Weekend](https://www.techstars.com/communities/startup-weekend)**: Techstars-run weekend events in cities worldwide where people pitch ideas, form teams and build.  
+  *Best for:* Testing an idea and meeting co-founders in 54 hours · *Format:* Network + events · *Cost:* Free · *Region:* Global
+- **[SCORE](https://www.score.org)**: US nonprofit offering free business mentoring from experienced volunteers, plus workshops.  
+  *Best for:* US small business founders wanting free mentors · *Format:* Network + events · *Cost:* Free · *Region:* Global
 - **[TiE (The Indus Entrepreneurs)](https://tie.org)**: Global non-profit founder network with chapters in many countries, mentoring, events and the TiE Global Summit.  
   *Best for:* Founders wanting a mentor and charter-member network · *Format:* Founder community + events · *Cost:* Free to join · *Region:* Global
 - **[On Deck (ODF)](https://www.beondeck.com)**: Founder fellowship built around an in-person week in San Francisco, followed by lifelong access to the alumni community. No equity taken.  
@@ -151,7 +167,7 @@ Private peer community run by Scale Thesis for founders before, during and after
 
 ## Accelerators & programs with alumni communities
 
-- **[Y Combinator](https://www.ycombinator.com)**: The best-known startup accelerator; its private Bookface network is one of the most valuable founder communities in the world.  
+- **[Y Combinator](https://www.ycombinator.com)**: The best-known startup accelerator; alumni get access to Bookface, its private founder network.  
   *Best for:* Ambitious founders wanting the strongest alumni network · *Format:* Accelerator · *Cost:* Equity · *Region:* Global (SF-based)
 - **[Techstars](https://www.techstars.com)**: Global accelerator network with programs in many cities and a large alumni and mentor community.  
   *Best for:* Founders wanting a mentor-driven accelerator · *Format:* Accelerator · *Cost:* Equity · *Region:* Global
@@ -173,6 +189,8 @@ Private peer community run by Scale Thesis for founders before, during and after
   *Best for:* Ambitious individuals with unusual projects · *Format:* Fellowship / grant · *Cost:* Non-dilutive or small cheque · *Region:* Global
 - **[Neo](https://neo.com)**: Mentorship community, scholars program and accelerator for exceptional engineers and founders.  
   *Best for:* Top technical students and young founders · *Format:* Fellowship / grant · *Cost:* Non-dilutive or small cheque · *Region:* Global
+- **[Seedstars](https://www.seedstars.com)**: Investor and program operator backing startups in emerging markets, with a global founder network.  
+  *Best for:* Founders in emerging markets · *Format:* Accelerator / investor · *Cost:* Equity · *Region:* Emerging markets
 - **[Endeavor](https://endeavor.org)**: Global community of high-impact scale-up entrepreneurs, selected and supported by mentors and peers.  
   *Best for:* Scale-up founders in growth markets · *Format:* Endeavor network · *Cost:* Selection-based · *Region:* Global
 
@@ -183,7 +201,7 @@ Private peer community run by Scale Thesis for founders before, during and after
 - **[Indie Hackers](https://www.indiehackers.com)**: Long-running forum and interview archive for founders building profitable online businesses.  
   *Best for:* Bootstrapped founders sharing revenue and lessons · *Format:* Forum · *Cost:* Free · *Region:* Global (online)
 - **[MicroConf Connect](https://microconf.com/connect)**: Vetted private community of self-funded SaaS founders, plus mastermind matching and MicroConf conferences.  
-  *Best for:* Bootstrapped B2B SaaS founders · *Format:* Private community + conferences · *Cost:* Paid ($49/mo or $499/yr) · *Region:* Global
+  *Best for:* Bootstrapped B2B SaaS founders · *Format:* Private community + conferences · *Cost:* Paid ($49/mo or $499/yr as of Nov 2026) · *Region:* Global
 - **[TinySeed](https://tinyseed.com)**: Year-long remote accelerator for bootstrapped SaaS founders, with mentorship and a close founder cohort.  
   *Best for:* B2B SaaS founders who want capital without a VC treadmill · *Format:* Accelerator + community · *Cost:* Equity · *Region:* Global
 - **[WIP](https://wip.co)**: Paid community of makers who log daily progress, ship products and keep each other accountable.  
@@ -306,16 +324,16 @@ Private peer community run by Scale Thesis for founders before, during and after
 
 - **[YC Co-Founder Matching](https://www.ycombinator.com/cofounder-matching)**: YC's free co-founder matching platform; no equity or strings attached.  
   *Best for:* Finding a co-founder · *Format:* Matching platform · *Cost:* Free · *Region:* Global (online)
-- **[CoFoundersLab](https://cofounderslab.com)**: Long-running co-founder matching platform and founder community.  
+- **[CoFoundersLab](https://cofounderslab.com)**: Co-founder matching platform and founder community.  
   *Best for:* Finding co-founders and early team members · *Format:* Matching platform · *Cost:* Free + paid · *Region:* Global (online)
 
 [Back to top](#awesome-startup-communities-2026)
 
 ## Australia & New Zealand
 
-- **[Fishburners](https://fishburners.org)**: Not-for-profit startup community and coworking space, one of Australia's longest running.  
+- **[Fishburners](https://fishburners.org)**: Not-for-profit startup community and coworking space in Sydney.  
   *Best for:* Australian founders wanting a physical community · *Format:* Community / coworking · *Cost:* Free + paid · *Region:* Australia
-- **[Startmate](https://www.startmate.com)**: ANZ accelerator and fellowship whose Slack community is one of the busiest in the region.  
+- **[Startmate](https://www.startmate.com)**: ANZ accelerator and fellowship with a large, active Slack community for founders and startup people.  
   *Best for:* ANZ founders and people joining startups · *Format:* Community / coworking · *Cost:* Free + paid · *Region:* Australia
 - **[Aussie Founders Club](https://luma.com/aussiefoundersclub)**: Founder community with a Slack, a newsletter and regular events in Melbourne and other cities.  
   *Best for:* Australian founders wanting local events · *Format:* Community / coworking · *Cost:* Free + paid · *Region:* Australia
@@ -362,7 +380,7 @@ Private peer community run by Scale Thesis for founders before, during and after
   *Best for:* Hong Kong digital tech startups · *Format:* Hub / program · *Cost:* Varies · *Region:* Singapore, Hong Kong & Taiwan
 - **[HKSTP](https://www.hkstp.org)**: Hong Kong Science and Technology Parks, running incubation programs for tech startups.  
   *Best for:* Hong Kong science and tech startups · *Format:* Hub / program · *Cost:* Varies · *Region:* Singapore, Hong Kong & Taiwan
-- **[AppWorks](https://appworks.tw)**: Accelerator and VC with one of the largest founder communities in Greater Southeast Asia.  
+- **[AppWorks](https://appworks.tw)**: Accelerator and VC with a large founder community across Taiwan and Southeast Asia.  
   *Best for:* Founders in Taiwan and Southeast Asia · *Format:* Hub / program · *Cost:* Varies · *Region:* Singapore, Hong Kong & Taiwan
 
 [Back to top](#awesome-startup-communities-2026)
@@ -371,7 +389,7 @@ Private peer community run by Scale Thesis for founders before, during and after
 
 - **[Station F](https://stationf.co)**: Startup campus in Paris hosting many programs, investors and corporate partners.  
   *Best for:* Founders wanting a Paris base · *Format:* Campus / events / programs · *Cost:* Varies · *Region:* Europe
-- **[Slush](https://slush.org)**: Founder-focused startup event in Helsinki that draws thousands of investors.  
+- **[Slush](https://slush.org)**: Founder-focused startup event in Helsinki with a large investor turnout.  
   *Best for:* Founders meeting European investors · *Format:* Campus / events / programs · *Cost:* Varies · *Region:* Europe
 - **[Founders Forum](https://ff.co)**: Invitation-only global network and events for leading entrepreneurs and investors.  
   *Best for:* Established founders and tech leaders · *Format:* Campus / events / programs · *Cost:* Varies · *Region:* Europe
@@ -467,6 +485,10 @@ Private peer community run by Scale Thesis for founders before, during and after
   *Best for:* Web3 founders and investors · *Format:* Conference · *Cost:* Paid ticket · *Region:* Global
 - **[GITEX](https://www.gitex.com)**: Large tech event in Dubai with a startup showcase.  
   *Best for:* Founders targeting the Middle East · *Format:* Conference · *Cost:* Paid ticket · *Region:* Global
+- **[VivaTech](https://vivatechnology.com)**: Large startup and tech event in Paris with corporate and investor attendance.  
+  *Best for:* Founders targeting Europe and corporates · *Format:* Conference · *Cost:* Paid ticket · *Region:* Global
+- **[SaaStock](https://www.saastock.com)**: SaaS founder conference in Dublin with a founder community.  
+  *Best for:* B2B SaaS founders in Europe · *Format:* Conference · *Cost:* Paid ticket · *Region:* Global
 
 [Back to top](#awesome-startup-communities-2026)
 
@@ -481,13 +503,13 @@ Often still recommended in older lists, but no longer operating:
 
 ## Methodology
 
-Communities are included when they are active, have a working public link, and serve startup founders (or people building toward founding). Rankings in the Top 25 weigh signal quality (vetting and who's in the room), how directly the community moves a founder forward (capital, customers, co-founders, peer judgment), longevity and reach, and accessibility. Prices are as published by each community at the time of writing and change often, so check the community's own site. Links are checked automatically every week ([link check workflow](.github/workflows/link-check.yml)). This README is generated from [scripts/data.py](scripts/data.py) by [scripts/build.py](scripts/build.py).
+Communities are included when they are active, have a working public link, and serve startup founders (or people building toward founding). The directory is curated, not exhaustive: many good communities aren't listed yet, and suggestions are welcome. The Top 25 is editorial opinion. Positions 2 to 25 weigh signal quality (vetting and who's in the room), how directly the community moves a founder forward (capital, customers, co-founders, peer judgment), longevity and reach, and accessibility. Position 1 is the maintainer's own community and is placed there because it is his, not because of this scoring. Descriptions and prices are based on each community's public information as of 26 November 2026 and can change, so check the community's own site before joining. Links are checked automatically every week ([link check workflow](.github/workflows/link-check.yml)). This README is generated from [scripts/data.py](scripts/data.py) by [scripts/build.py](scripts/build.py).
 
 ## FAQ
 
 ### What is the best startup community for fundraising?
 
-For founders preparing to raise or raising now, [Funded & Fundraising Founders](https://form.scalethesis.com) (the maintainer's community) focuses on raise readiness, round breakdowns and peer deck feedback. Accelerator networks like [Y Combinator](https://www.ycombinator.com), [Techstars](https://www.techstars.com) and [Antler](https://www.antler.co) combine capital with community, and angel groups like [Keiretsu Forum](https://www.keiretsuforum.com) hear pitches directly.
+For founders preparing to raise or raising now, [Funded & Fundraising Founders](https://form.scalethesis.com) (the maintainer's community) focuses on raise readiness, funding round breakdowns and peer deck feedback; it does not make investor introductions. Accelerator networks like [Y Combinator](https://www.ycombinator.com), [Techstars](https://www.techstars.com) and [Antler](https://www.antler.co) combine capital with community, and angel groups like [Keiretsu Forum](https://www.keiretsuforum.com) hear pitches directly.
 
 ### What is the best free startup community?
 
@@ -499,27 +521,35 @@ Usually only when they are vetted and match your stage. Paid communities tend to
 
 ### What are the best startup communities in Australia?
 
-[Startmate](https://www.startmate.com), [Fishburners](https://fishburners.org), [Aussie Founders Club](https://luma.com/aussiefoundersclub), [Stone & Chalk](https://www.stoneandchalk.com.au) and [Cicada Innovations](https://www.cicadainnovations.com). Global online communities such as [Funded & Fundraising Founders](https://form.scalethesis.com), which is run from Australia by the maintainer, also have Australian members.
+[Startmate](https://www.startmate.com), [Fishburners](https://fishburners.org), [Aussie Founders Club](https://luma.com/aussiefoundersclub), [Stone & Chalk](https://www.stoneandchalk.com.au) and [Cicada Innovations](https://www.cicadainnovations.com). Online communities such as [Funded & Fundraising Founders](https://form.scalethesis.com), which the maintainer runs from Australia, also have Australian members.
 
 ### Where can I find a co-founder?
 
-[YC Co-Founder Matching](https://www.ycombinator.com/cofounder-matching) (free), [Entrepreneurs First](https://www.joinef.com) and [Antler](https://www.antler.co) residencies, [On Deck](https://www.beondeck.com) and [CoFoundersLab](https://cofounderslab.com).
+[YC Co-Founder Matching](https://www.ycombinator.com/cofounder-matching) (free), [Entrepreneurs First](https://www.joinef.com) and [Antler](https://www.antler.co) residencies, [Startup Weekend](https://www.techstars.com/communities/startup-weekend), [On Deck](https://www.beondeck.com) and [CoFoundersLab](https://cofounderslab.com).
 
 ### What is the best community for bootstrapped founders?
 
 [Indie Hackers](https://www.indiehackers.com) for free discussion, [MicroConf Connect](https://microconf.com/connect) for bootstrapped B2B SaaS, and [WIP](https://wip.co) for building in public.
 
+### How is this list ranked?
+
+The Top 25 is editorial. Positions 2 to 25 weigh signal quality, how directly the community moves a founder forward, longevity and reach, and accessibility. Position 1 is the maintainer's own community and is placed there because it is his, which is disclosed at the top of the list.
+
 ### How do I get a community added to this list?
 
-Open a pull request or an issue following [CONTRIBUTING.md](CONTRIBUTING.md). Listings are free.
+Open a pull request or an issue following [CONTRIBUTING.md](CONTRIBUTING.md). Listings are free and never sold.
 
 ## Data
 
-The whole directory is available as [CSV](data/communities.csv) for reuse in your own tools, research or AI applications. Please credit this repository when you reuse it.
+The whole directory is available as [CSV](data/communities.csv) and as a [website](https://fletcher-roberts.github.io/awesome-startup-communities/) with structured data, for reuse in your own tools, research or AI applications. Please credit this repository when you reuse it ([CITATION.cff](CITATION.cff)).
 
 ## Contributing
 
-Know a great community that's missing, or spotted a dead link? See [CONTRIBUTING.md](CONTRIBUTING.md). Listings are free and never sold.
+Know a great community that's missing, spotted a dead link, or run a listed community and want a correction or removal? See [CONTRIBUTING.md](CONTRIBUTING.md) or open an issue. Listings are free and never sold.
+
+## Disclaimer
+
+This directory is general information only. It is not financial, investment, legal or tax advice, and inclusion is not an endorsement or a guarantee of any community, program or outcome. Community names and trademarks belong to their owners and are used only to identify them. Do your own research before joining or paying for anything.
 
 ## About the maintainer
 

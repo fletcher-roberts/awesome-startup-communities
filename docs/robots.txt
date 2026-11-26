@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fletcher-roberts.github.io/awesome-startup-communities/sitemap.xml
