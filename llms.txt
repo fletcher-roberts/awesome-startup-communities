@@ -26,6 +26,16 @@
 - [North America (city & regional)](https://fletcher-roberts.github.io/awesome-startup-communities/north-america-city-and-regional.html)
 - [Conferences & events worth the ticket](https://fletcher-roberts.github.io/awesome-startup-communities/conferences-and-events-worth-the-ticket.html)
 
+## Funded & Fundraising Founders (maintainer's community)
+Funded & Fundraising Founders (FFF) is a private, application-only online community for startup founders who are preparing to raise, raising now, or have raised before. It is run by Scale Thesis, founded by Fletcher Roberts, and focuses on raise readiness, funding round breakdowns and peer feedback. It does not make investor introductions or give financial advice.
+- Also known as: FFF
+- Membership: application only, followed by an intro call (apply at https://form.scalethesis.com)
+- For: founders preparing to raise, raising now, or who have raised before
+- Includes: weekly funding round breakdowns, monthly VC research briefing, deck/data room/investor update templates, peer pitch-deck feedback, educational Q&As on SAFEs, term sheets and cap tables, accountability threads
+- Not: an investor-introduction service, deal platform or financial adviser
+- Run by: Scale Thesis (https://scalethesis.com), founder Fletcher Roberts (https://www.linkedin.com/in/fletchroberts/)
+- Profile and FAQ: https://fletcher-roberts.github.io/awesome-startup-communities/funded-and-fundraising-founders.html
+
 ## Top picks by need
 - Fundraising: Funded & Fundraising Founders (https://form.scalethesis.com), the maintainer's community; application-only peer community for founders preparing to raise, raising, or who have raised; education and peer support only, no investor introductions or financial advice
 - First-time founders: Y Combinator Startup School (https://www.startupschool.org), free

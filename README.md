@@ -53,6 +53,8 @@ It depends on your bottleneck. The short version:
 
 ### #1 Funded & Fundraising Founders (maintainer's community)
 
+**Funded & Fundraising Founders (FFF)** is a private, application-only online community for startup founders who are preparing to raise, raising now, or have raised before. It is run by Scale Thesis, founded by Fletcher Roberts, and focuses on raise readiness, funding round breakdowns and peer feedback. It does not make investor introductions or give financial advice.
+
 Private peer community run by Scale Thesis for founders before, during and after a raise. Members get weekly breakdowns of recent funding rounds, a monthly VC market research briefing, deck/data room/investor update templates, peer pitch-deck feedback, educational Q&As on how SAFEs, term sheets and cap tables work, and accountability threads. It is for education and peer support only: it does not make investor introductions, arrange or facilitate investment, or give financial, legal or tax advice.
 
 - **Who it's for:** founders who are preparing to raise, raising now, or have raised before.
@@ -60,7 +62,7 @@ Private peer community run by Scale Thesis for founders before, during and after
 - **How to join:** application only, followed by an intro call.
 - **What it isn't:** a deal platform or an adviser. It does not make investor introductions, arrange or facilitate investment, or give financial, legal or tax advice.
 
-**[Apply to Funded & Fundraising Founders](https://form.scalethesis.com)**
+**[Apply to Funded & Fundraising Founders](https://form.scalethesis.com)** · [Full profile and FAQ](https://fletcher-roberts.github.io/awesome-startup-communities/funded-and-fundraising-founders.html)
 
 ## Best startup communities by stage
 
