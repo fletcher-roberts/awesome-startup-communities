@@ -7,9 +7,9 @@ FEATURED = dict(
     cat="Fundraising & investor communities",
     region="Global (online)",
     fmt="Private online community (by application)",
-    cost="Paid (application + intro call)",
+    cost="Application only",
     best="Founders preparing to raise, raising now, or who have raised before",
-    desc="Private peer community run by Scale Thesis for founders before, during and after a raise. Members get weekly breakdowns of recent funding rounds, a monthly VC market research briefing, deck/data room/investor update templates, peer pitch-deck feedback, live Q&As on SAFEs, term sheets and cap tables, and accountability threads. Investors are members too, but the community does not arrange introductions or investment and is not financial advice.",
+    desc="Private peer community run by Scale Thesis for founders before, during and after a raise. Members get weekly breakdowns of recent funding rounds, a monthly VC market research briefing, deck/data room/investor update templates, peer pitch-deck feedback, educational Q&As on how SAFEs, term sheets and cap tables work, and accountability threads. It is for education and peer support only: it does not make investor introductions, arrange or facilitate investment, or give financial, legal or tax advice.",
 )
 
 C = []
@@ -28,15 +28,20 @@ add(CAT, "Global", "Events + chapters", "Free", [
     ("1 Million Cups", "https://www.1millioncups.com", "Early founders wanting feedback from their local community", "Weekly local events where two founders present and get candid audience feedback; run in dozens of US cities."),
 ])
 add(CAT, "US, Canada & London (in person)", "Curated peer groups", "Paid (premium, by application)", [
-    ("Hampton", "https://www.joinhampton.com", "Founders and CEOs of $3M+ revenue companies", "Vetted community built around small monthly in-person Core Groups of founders, plus dinners, retreats and an online community. Published pricing is a $2,500 initiation fee and $9,500 annual dues."),
+    ("Hampton", "https://www.joinhampton.com", "Founders and CEOs of $3M+ revenue companies", "Vetted community built around small monthly in-person Core Groups of founders, plus dinners, retreats and an online community. Published pricing (Nov 2026): $2,500 initiation fee and $9,500 annual dues."),
 ])
 add(CAT, "Global (online + chapters)", "Peer mentorship community", "Paid (by application)", [
-    ("Founders Network", "https://foundersnetwork.com", "Full-time tech founders from pre-revenue up", "Peer mentorship community for tech founders with forums, roundtables and city chapters. Published membership runs roughly $75 to $249 a month, billed annually."),
+    ("Founders Network", "https://foundersnetwork.com", "Full-time tech founders from pre-revenue up", "Peer mentorship community for tech founders with forums, roundtables and city chapters. Published pricing (Nov 2026): roughly $75 to $249 a month, billed annually."),
 ])
 add(CAT, "Global", "Peer forums (chapters)", "Paid (revenue threshold)", [
     ("Entrepreneurs' Organization (EO)", "https://www.eonetwork.org", "Owners of businesses past $1M revenue", "Global peer network of business owners organised into small confidential forums and local chapters."),
     ("YPO", "https://www.ypo.org", "Chief executives of larger companies", "Global leadership community for chief executives, organised into chapters and confidential forums."),
     ("Vistage", "https://www.vistage.com", "CEOs wanting chair-facilitated peer advisory", "Peer advisory groups led by a trained chair, paired with one-on-one executive coaching."),
+])
+add(CAT, "Global", "Network + events", "Free", [
+    ("Global Entrepreneurship Network", "https://www.genglobal.org", "Founders and ecosystem builders in emerging ecosystems", "Network of entrepreneurship programs in many countries, known for Global Entrepreneurship Week."),
+    ("Startup Weekend", "https://www.techstars.com/communities/startup-weekend", "Testing an idea and meeting co-founders in 54 hours", "Techstars-run weekend events in cities worldwide where people pitch ideas, form teams and build."),
+    ("SCORE", "https://www.score.org", "US small business founders wanting free mentors", "US nonprofit offering free business mentoring from experienced volunteers, plus workshops."),
 ])
 add(CAT, "Global", "Founder community + events", "Free to join", [
     ("TiE (The Indus Entrepreneurs)", "https://tie.org", "Founders wanting a mentor and charter-member network", "Global non-profit founder network with chapters in many countries, mentoring, events and the TiE Global Summit."),
@@ -62,7 +67,7 @@ add(CAT, "Global (online)", "Angel investing community", "Paid", [
     ("Hustle Fund Angel Squad", "https://www.angelsquad.co", "Founders and operators who want to learn angel investing", "Community and education program from Hustle Fund for new and experienced angels, with deal flow from the fund."),
 ])
 add(CAT, "US + global chapters", "Angel network", "Membership (investors)", [
-    ("Keiretsu Forum", "https://www.keiretsuforum.com", "Founders pitching to organised angel groups", "One of the largest global angel networks, with chapters that hear startup pitches and invest together."),
+    ("Keiretsu Forum", "https://www.keiretsuforum.com", "Founders pitching to organised angel groups", "Global angel network with regional chapters that hear startup pitches and invest together."),
 ])
 add(CAT, "US", "Community + nonprofit", "Free", [
     ("All Raise", "https://www.allraise.org", "Women founders and funders", "Nonprofit working to accelerate women in venture, with founder programs, office hours and a funders network."),
@@ -76,7 +81,7 @@ add(CAT, "Australia", "Angel network", "Membership (investors)", [
 # ---------- Accelerators & programs with strong alumni communities ----------
 CAT = "Accelerators & programs with alumni communities"
 add(CAT, "Global (SF-based)", "Accelerator", "Equity", [
-    ("Y Combinator", "https://www.ycombinator.com", "Ambitious founders wanting the strongest alumni network", "The best-known startup accelerator; its private Bookface network is one of the most valuable founder communities in the world."),
+    ("Y Combinator", "https://www.ycombinator.com", "Ambitious founders wanting the strongest alumni network", "The best-known startup accelerator; alumni get access to Bookface, its private founder network."),
 ])
 add(CAT, "Global", "Accelerator", "Equity", [
     ("Techstars", "https://www.techstars.com", "Founders wanting a mentor-driven accelerator", "Global accelerator network with programs in many cities and a large alumni and mentor community."),
@@ -92,6 +97,9 @@ add(CAT, "Global", "Fellowship / grant", "Non-dilutive or small cheque", [
     ("Emergent Ventures", "https://www.mercatus.org/emergent-ventures", "Ambitious individuals with unusual projects", "Fast grants and fellowships for people with high-impact ideas, administered by the Mercatus Center."),
     ("Neo", "https://neo.com", "Top technical students and young founders", "Mentorship community, scholars program and accelerator for exceptional engineers and founders."),
 ])
+add(CAT, "Emerging markets", "Accelerator / investor", "Equity", [
+    ("Seedstars", "https://www.seedstars.com", "Founders in emerging markets", "Investor and program operator backing startups in emerging markets, with a global founder network."),
+])
 add(CAT, "Global", "Endeavor network", "Selection-based", [
     ("Endeavor", "https://endeavor.org", "Scale-up founders in growth markets", "Global community of high-impact scale-up entrepreneurs, selected and supported by mentors and peers."),
 ])
@@ -101,7 +109,7 @@ CAT = "Bootstrapped, indie & SaaS founders"
 add(CAT, "Global (online)", "Forum", "Free", [
     ("Indie Hackers", "https://www.indiehackers.com", "Bootstrapped founders sharing revenue and lessons", "Long-running forum and interview archive for founders building profitable online businesses."),
 ])
-add(CAT, "Global", "Private community + conferences", "Paid ($49/mo or $499/yr)", [
+add(CAT, "Global", "Private community + conferences", "Paid ($49/mo or $499/yr as of Nov 2026)", [
     ("MicroConf Connect", "https://microconf.com/connect", "Bootstrapped B2B SaaS founders", "Vetted private community of self-funded SaaS founders, plus mastermind matching and MicroConf conferences."),
 ])
 add(CAT, "Global", "Accelerator + community", "Equity", [
@@ -195,14 +203,14 @@ add(CAT, "Global (online)", "Matching platform", "Free", [
     ("YC Co-Founder Matching", "https://www.ycombinator.com/cofounder-matching", "Finding a co-founder", "YC's free co-founder matching platform; no equity or strings attached."),
 ])
 add(CAT, "Global (online)", "Matching platform", "Free + paid", [
-    ("CoFoundersLab", "https://cofounderslab.com", "Finding co-founders and early team members", "Long-running co-founder matching platform and founder community."),
+    ("CoFoundersLab", "https://cofounderslab.com", "Finding co-founders and early team members", "Co-founder matching platform and founder community."),
 ])
 
 # ---------- Regional ----------
 CAT = "Australia & New Zealand"
 add(CAT, "Australia", "Community / coworking", "Free + paid", [
-    ("Fishburners", "https://fishburners.org", "Australian founders wanting a physical community", "Not-for-profit startup community and coworking space, one of Australia's longest running."),
-    ("Startmate", "https://www.startmate.com", "ANZ founders and people joining startups", "ANZ accelerator and fellowship whose Slack community is one of the busiest in the region."),
+    ("Fishburners", "https://fishburners.org", "Australian founders wanting a physical community", "Not-for-profit startup community and coworking space in Sydney."),
+    ("Startmate", "https://www.startmate.com", "ANZ founders and people joining startups", "ANZ accelerator and fellowship with a large, active Slack community for founders and startup people."),
     ("Aussie Founders Club", "https://luma.com/aussiefoundersclub", "Australian founders wanting local events", "Founder community with a Slack, a newsletter and regular events in Melbourne and other cities."),
     ("Stone & Chalk", "https://www.stoneandchalk.com.au", "Fintech, cyber and deep tech startups", "Innovation hub with residents and programs in Sydney, Melbourne and Adelaide."),
     ("Cicada Innovations", "https://www.cicadainnovations.com", "Deep tech founders in Sydney", "Deep tech incubator in Sydney supporting science-based companies."),
@@ -233,13 +241,13 @@ add(CAT, "Singapore, Hong Kong & Taiwan", "Hub / program", "Varies", [
     ("SGInnovate", "https://www.sginnovate.com", "Deep tech founders in Singapore", "Government-owned group supporting deep tech founders with capital and community."),
     ("Cyberport", "https://www.cyberport.hk", "Hong Kong digital tech startups", "Hong Kong digital tech hub with incubation programs and a startup community."),
     ("HKSTP", "https://www.hkstp.org", "Hong Kong science and tech startups", "Hong Kong Science and Technology Parks, running incubation programs for tech startups."),
-    ("AppWorks", "https://appworks.tw", "Founders in Taiwan and Southeast Asia", "Accelerator and VC with one of the largest founder communities in Greater Southeast Asia."),
+    ("AppWorks", "https://appworks.tw", "Founders in Taiwan and Southeast Asia", "Accelerator and VC with a large founder community across Taiwan and Southeast Asia."),
 ])
 
 CAT = "Europe & UK"
 add(CAT, "Europe", "Campus / events / programs", "Varies", [
     ("Station F", "https://stationf.co", "Founders wanting a Paris base", "Startup campus in Paris hosting many programs, investors and corporate partners."),
-    ("Slush", "https://slush.org", "Founders meeting European investors", "Founder-focused startup event in Helsinki that draws thousands of investors."),
+    ("Slush", "https://slush.org", "Founders meeting European investors", "Founder-focused startup event in Helsinki with a large investor turnout."),
     ("Founders Forum", "https://ff.co", "Established founders and tech leaders", "Invitation-only global network and events for leading entrepreneurs and investors."),
     ("Seedcamp", "https://seedcamp.com", "European pre-seed and seed founders", "European seed fund with a strong founder community across its portfolio."),
     ("Founders Factory", "https://foundersfactory.com", "Founders wanting corporate-backed acceleration", "London-based accelerator and venture studio backed by corporate partners."),
@@ -294,4 +302,6 @@ add(CAT, "Global", "Conference", "Paid ticket", [
     ("MicroConf", "https://microconf.com", "Bootstrapped SaaS founders", "Conferences for self-funded SaaS founders in the US and Europe."),
     ("TOKEN2049", "https://www.token2049.com", "Web3 founders and investors", "Major crypto conference held in Singapore and Dubai."),
     ("GITEX", "https://www.gitex.com", "Founders targeting the Middle East", "Large tech event in Dubai with a startup showcase."),
+    ("VivaTech", "https://vivatechnology.com", "Founders targeting Europe and corporates", "Large startup and tech event in Paris with corporate and investor attendance."),
+    ("SaaStock", "https://www.saastock.com", "B2B SaaS founders in Europe", "SaaS founder conference in Dublin with a founder community."),
 ])
