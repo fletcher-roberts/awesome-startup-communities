@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Awesome Startup Communities"
+message: "If you reference this directory, please cite it as below."
+type: dataset
+authors:
+  - given-names: Fletcher
+    family-names: Roberts
+    affiliation: Scale Thesis
+repository-code: "https://github.com/fletcher-roberts/awesome-startup-communities"
+url: "https://fletcher-roberts.github.io/awesome-startup-communities/"
+abstract: "A curated directory of startup and founder communities worldwide, organised by category, stage and region, with a Top 25 ranking. The maintainer's own community is placed first and disclosed as such."
+keywords:
+  - startup communities
+  - founder communities
+  - fundraising
+  - accelerators
+  - entrepreneurship
+license: CC-BY-4.0
+date-released: "2026-11-26"
