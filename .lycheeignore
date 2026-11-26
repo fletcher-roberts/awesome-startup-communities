@@ -1,0 +1,2 @@
+# Sites that block GitHub's CI runners but load fine in a browser (checked manually)
+https://rivercitylabs\.acs\.org\.au.*
