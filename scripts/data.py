@@ -69,7 +69,7 @@ add(CAT, "US", "Community + nonprofit", "Free", [
 ])
 add(CAT, "Australia", "Angel network", "Membership (investors)", [
     ("Sydney Angels", "https://www.sydneyangels.net.au", "Australian founders raising from angels", "Sydney-based angel group that runs regular pitch sessions for early-stage Australian startups."),
-    ("Melbourne Angels", "https://www.melbourneangels.net", "Victorian founders raising seed rounds", "Melbourne angel investor group that reviews and invests in early-stage startups."),
+    ("Melbourne Angels", "https://melbourneangels.com", "Victorian founders raising seed rounds", "Melbourne angel investor group that reviews and invests in early-stage startups."),
     ("Scale Investors", "https://www.scaleinvestors.com.au", "Female-founded Australian startups raising capital", "Angel network that invests in female-led, high-growth Australian startups and trains new investors."),
 ])
 
@@ -110,7 +110,7 @@ add(CAT, "Global", "Accelerator + community", "Equity", [
 add(CAT, "Global (online)", "Community + database", "Free + paid", [
     ("WIP", "https://wip.co", "Makers who want to build in public and ship daily", "Paid community of makers who log daily progress, ship products and keep each other accountable."),
     ("Starter Story", "https://www.starterstory.com", "Studying how real small businesses were built", "Database of founder case studies with a paid membership and community."),
-    ("No Code Founders", "https://www.nocodefounders.com", "Non-technical founders building with no-code tools", "Free community for founders who build products with no-code tools, with AMAs and partner perks."),
+    ("No Code Founders", "https://www.nocodefounders.com", "Non-technical founders building with no-code tools", "Weekly newsletter and tools directory for founders building with no-code tools."),
 ])
 add(CAT, "Global", "Conference + community", "Paid", [
     ("SaaStr", "https://www.saastr.com", "B2B SaaS founders and go-to-market leaders", "B2B SaaS media brand and conference community, including the large annual SaaStr event."),
@@ -181,7 +181,7 @@ add(CAT, "Global", "Accelerator / community", "Equity or free", [
 # ---------- Women & underrepresented founders ----------
 CAT = "Women & underrepresented founders"
 add(CAT, "Global", "Community", "Free + paid", [
-    ("Dreamers & Doers", "https://www.dreamersanddoers.com", "Women founders wanting press and peer support", "Collective of women entrepreneurs focused on visibility, peer support and opportunities."),
+    ("Dreamers & Doers", "https://www.dreamersdoers.com", "Women founders wanting press and peer support", "Collective of women entrepreneurs focused on visibility, peer support and opportunities."),
     ("digitalundivided", "https://www.digitalundivided.com", "Black and Latina women founders", "Nonprofit supporting Black and Latina women entrepreneurs through programs and research."),
     ("Lesbians Who Tech", "https://lesbianswhotech.org", "LGBTQ+ women and non-binary people in tech", "Large community of queer women and non-binary people in tech, with summits and chapters."),
     ("StartOut", "https://startout.org", "LGBTQ+ founders", "Nonprofit supporting LGBTQ+ entrepreneurs with programs, mentorship and a network."),
@@ -208,7 +208,7 @@ add(CAT, "Australia", "Community / coworking", "Free + paid", [
     ("Cicada Innovations", "https://www.cicadainnovations.com", "Deep tech founders in Sydney", "Deep tech incubator in Sydney supporting science-based companies."),
     ("LaunchVic", "https://launchvic.org", "Victorian founders and ecosystem builders", "Victorian Government agency funding startup programs and publishing ecosystem resources."),
     ("Spacecubed", "https://www.spacecubed.com", "Western Australian founders", "Perth innovation hub and coworking community running startup programs."),
-    ("River City Labs", "https://www.rivercitylabs.net", "Queensland founders", "Brisbane startup hub and coworking community with programs and events."),
+    ("River City Labs", "https://rivercitylabs.acs.org.au", "Queensland founders", "Brisbane startup hub, now part of the Australian Computer Society, with programs, events and a founder community."),
     ("FinTech Australia", "https://www.fintechaustralia.org.au", "Australian fintech founders", "Industry body for Australian fintechs, with a member community and events."),
     ("SXSW Sydney", "https://www.sxswsydney.com", "Meeting the ANZ tech and creative scene", "Annual festival in Sydney covering tech, startups, music and screen."),
 ])
