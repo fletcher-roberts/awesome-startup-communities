@@ -103,7 +103,7 @@ Private peer community run by Scale Thesis for founders before, during and after
   *Best for:* Women founders and funders · *Format:* Community + nonprofit · *Cost:* Free · *Region:* US
 - **[Sydney Angels](https://www.sydneyangels.net.au)**: Sydney-based angel group that runs regular pitch sessions for early-stage Australian startups.  
   *Best for:* Australian founders raising from angels · *Format:* Angel network · *Cost:* Membership (investors) · *Region:* Australia
-- **[Melbourne Angels](https://www.melbourneangels.net)**: Melbourne angel investor group that reviews and invests in early-stage startups.  
+- **[Melbourne Angels](https://melbourneangels.com)**: Melbourne angel investor group that reviews and invests in early-stage startups.  
   *Best for:* Victorian founders raising seed rounds · *Format:* Angel network · *Cost:* Membership (investors) · *Region:* Australia
 - **[Scale Investors](https://www.scaleinvestors.com.au)**: Angel network that invests in female-led, high-growth Australian startups and trains new investors.  
   *Best for:* Female-founded Australian startups raising capital · *Format:* Angel network · *Cost:* Membership (investors) · *Region:* Australia
@@ -190,7 +190,7 @@ Private peer community run by Scale Thesis for founders before, during and after
   *Best for:* Makers who want to build in public and ship daily · *Format:* Community + database · *Cost:* Free + paid · *Region:* Global (online)
 - **[Starter Story](https://www.starterstory.com)**: Database of founder case studies with a paid membership and community.  
   *Best for:* Studying how real small businesses were built · *Format:* Community + database · *Cost:* Free + paid · *Region:* Global (online)
-- **[No Code Founders](https://www.nocodefounders.com)**: Free community for founders who build products with no-code tools, with AMAs and partner perks.  
+- **[No Code Founders](https://www.nocodefounders.com)**: Weekly newsletter and tools directory for founders building with no-code tools.  
   *Best for:* Non-technical founders building with no-code tools · *Format:* Community + database · *Cost:* Free + paid · *Region:* Global (online)
 - **[SaaStr](https://www.saastr.com)**: B2B SaaS media brand and conference community, including the large annual SaaStr event.  
   *Best for:* B2B SaaS founders and go-to-market leaders · *Format:* Conference + community · *Cost:* Paid · *Region:* Global
@@ -287,7 +287,7 @@ Private peer community run by Scale Thesis for founders before, during and after
 
 ## Women & underrepresented founders
 
-- **[Dreamers & Doers](https://www.dreamersanddoers.com)**: Collective of women entrepreneurs focused on visibility, peer support and opportunities.  
+- **[Dreamers & Doers](https://www.dreamersdoers.com)**: Collective of women entrepreneurs focused on visibility, peer support and opportunities.  
   *Best for:* Women founders wanting press and peer support · *Format:* Community · *Cost:* Free + paid · *Region:* Global
 - **[digitalundivided](https://www.digitalundivided.com)**: Nonprofit supporting Black and Latina women entrepreneurs through programs and research.  
   *Best for:* Black and Latina women founders · *Format:* Community · *Cost:* Free + paid · *Region:* Global
@@ -327,7 +327,7 @@ Private peer community run by Scale Thesis for founders before, during and after
   *Best for:* Victorian founders and ecosystem builders · *Format:* Community / coworking · *Cost:* Free + paid · *Region:* Australia
 - **[Spacecubed](https://www.spacecubed.com)**: Perth innovation hub and coworking community running startup programs.  
   *Best for:* Western Australian founders · *Format:* Community / coworking · *Cost:* Free + paid · *Region:* Australia
-- **[River City Labs](https://www.rivercitylabs.net)**: Brisbane startup hub and coworking community with programs and events.  
+- **[River City Labs](https://rivercitylabs.acs.org.au)**: Brisbane startup hub, now part of the Australian Computer Society, with programs, events and a founder community.  
   *Best for:* Queensland founders · *Format:* Community / coworking · *Cost:* Free + paid · *Region:* Australia
 - **[FinTech Australia](https://www.fintechaustralia.org.au)**: Industry body for Australian fintechs, with a member community and events.  
   *Best for:* Australian fintech founders · *Format:* Community / coworking · *Cost:* Free + paid · *Region:* Australia
