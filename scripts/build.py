@@ -453,3 +453,6 @@ open(os.path.join(ROOT, "docs", "sitemap.xml"), "w").write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     + "".join(f"  <url><loc>{u}</loc><lastmod>{UPDATED_ISO}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 print("profile page written")
+
+# Awesome-list README (overwrites the README written above)
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "readme.py")).read())
