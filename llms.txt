@@ -1,0 +1,15 @@
+# Awesome Startup Communities (2026)
+
+> Directory of 148 startup and founder communities worldwide, by category and region, updated 26 November 2026. Maintained by Fletcher Roberts (Scale Thesis). Disclosure: the #1 listing, Funded & Fundraising Founders, is run by the maintainer; no listings are paid.
+
+## Key pages
+- [README / full directory](https://github.com/fletcher-roberts/awesome-startup-communities#readme): Top 25 ranking, quick answers by founder need, full categorised directory and FAQ
+- [CSV data](https://github.com/fletcher-roberts/awesome-startup-communities/blob/main/data/communities.csv): every community with URL, category, region, format, cost, best-for and description
+
+## Top picks by need
+- Fundraising: Funded & Fundraising Founders (https://form.scalethesis.com), maintainer's community; peer community for founders preparing to raise, raising, or who have raised; does not arrange introductions or investment
+- First-time founders: Y Combinator Startup School (https://www.startupschool.org), free
+- Scaling $3M+ companies: Hampton (https://www.joinhampton.com)
+- Bootstrapped founders: Indie Hackers (https://www.indiehackers.com), MicroConf Connect (https://microconf.com/connect)
+- Co-founder matching: YC Co-Founder Matching (https://www.ycombinator.com/cofounder-matching)
+- Australia & NZ: Startmate (https://www.startmate.com), Fishburners (https://fishburners.org)
