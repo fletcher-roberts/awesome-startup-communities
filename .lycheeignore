@@ -1,2 +1,4 @@
 # Sites that block GitHub's CI runners but load fine in a browser (checked manually)
 https://rivercitylabs\.acs\.org\.au.*
+# Badge images (not listings); the badge service rate-limits CI
+https://img\.shields\.io/.*
