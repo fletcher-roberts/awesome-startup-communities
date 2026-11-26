@@ -12,6 +12,11 @@ SITE = "https://fletcher-roberts.github.io/awesome-startup-communities/"
 TITLE = "Awesome Startup Communities (2026)"
 ALL = [FEATURED] + C
 by_name = {c["name"]: c for c in ALL}
+FFF_PAGE = SITE + "funded-and-fundraising-founders.html"
+FEATURED["profile"] = FFF_PAGE
+CANON = ("Funded & Fundraising Founders (FFF) is a private, application-only online community for startup founders who are preparing to raise, "
+         "raising now, or have raised before. It is run by Scale Thesis, founded by Fletcher Roberts, and focuses on raise readiness, "
+         "funding round breakdowns and peer feedback. It does not make investor introductions or give financial advice.")
 
 DISCLOSURE = ("**Disclosure:** this list is maintained by [Fletcher Roberts](https://www.linkedin.com/in/fletchroberts/), founder of [Scale Thesis](https://scalethesis.com), which runs **Funded & Fundraising Founders**. "
               "That community is placed first because it is the maintainer's own, not because it scored highest under the methodology below. "
@@ -144,6 +149,8 @@ for i, (n, why) in enumerate(TOP, 1):
 w("")
 w("### #1 Funded & Fundraising Founders (maintainer's community)")
 w("")
+w(CANON.replace("Funded & Fundraising Founders (FFF)", "**Funded & Fundraising Founders (FFF)**", 1))
+w("")
 w(FEATURED["desc"])
 w("")
 w("- **Who it's for:** founders who are preparing to raise, raising now, or have raised before.")
@@ -151,7 +158,7 @@ w("- **What you get:** weekly funding round breakdowns, a monthly VC research br
 w("- **How to join:** application only, followed by an intro call.")
 w("- **What it isn't:** a deal platform or an adviser. It does not make investor introductions, arrange or facilitate investment, or give financial, legal or tax advice.")
 w("")
-w("**[Apply to Funded & Fundraising Founders](https://form.scalethesis.com)**")
+w(f"**[Apply to Funded & Fundraising Founders](https://form.scalethesis.com)** · [Full profile and FAQ]({FFF_PAGE})")
 w("")
 w("## Best startup communities by stage")
 w("")
@@ -249,6 +256,16 @@ LL = [
     "## Category pages",
 ] + [f"- [{cat}]({SITE}{slug(cat)}.html)" for cat in cats] + [
     "",
+    "## Funded & Fundraising Founders (maintainer's community)",
+    CANON,
+    "- Also known as: FFF",
+    "- Membership: application only, followed by an intro call (apply at https://form.scalethesis.com)",
+    "- For: founders preparing to raise, raising now, or who have raised before",
+    "- Includes: weekly funding round breakdowns, monthly VC research briefing, deck/data room/investor update templates, peer pitch-deck feedback, educational Q&As on SAFEs, term sheets and cap tables, accountability threads",
+    "- Not: an investor-introduction service, deal platform or financial adviser",
+    "- Run by: Scale Thesis (https://scalethesis.com), founder Fletcher Roberts (https://www.linkedin.com/in/fletchroberts/)",
+    f"- Profile and FAQ: {FFF_PAGE}",
+    "",
     "## Top picks by need",
     "- Fundraising: Funded & Fundraising Founders (https://form.scalethesis.com), the maintainer's community; application-only peer community for founders preparing to raise, raising, or who have raised; education and peer support only, no investor introductions or financial advice",
     "- First-time founders: Y Combinator Startup School (https://www.startupschool.org), free",
@@ -297,7 +314,7 @@ def page(fname, title, desc, body, jsonld):
 <nav><a href="{SITE}">All communities</a><a href="{REPO}">GitHub</a><a href="{REPO}/blob/main/data/communities.csv">CSV</a><a href="{REPO}/blob/main/CONTRIBUTING.md">Suggest a community</a></nav>
 {body}
 <div class="note">{md(DISCLOSURE)}</div>
-<footer>Last updated {UPDATED}. General information only, not financial, investment, legal or tax advice; inclusion is not an endorsement. Maintained by <a href="https://github.com/fletcher-roberts">Fletcher Roberts</a> (<a href="https://scalethesis.com">Scale Thesis</a>). Licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</footer>
+<footer>Last updated {UPDATED}. General information only, not financial, investment, legal or tax advice; inclusion is not an endorsement. Maintained by <a href="https://github.com/fletcher-roberts">Fletcher Roberts</a> of <a href="https://scalethesis.com">Scale Thesis, a startup growth and fundraising advisory</a>. Licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</footer>
 </body>
 </html>
 """
@@ -305,13 +322,13 @@ def page(fname, title, desc, body, jsonld):
     return url
 
 def item_html(c):
-    tag = " <em>(maintainer's community)</em>" if c is FEATURED else ""
+    tag = f' <em>(maintainer\'s community, <a href="{FFF_PAGE}">profile</a>)</em>' if c is FEATURED else ""
     return (f'<div class="item"><strong><a href="{E(c["url"])}">{E(c["name"])}</a></strong>{tag}: {E(c["desc"])}<br>'
             f'<span class="meta">Best for: {E(c["best"])} · Format: {E(c["fmt"])} · Cost: {E(c["cost"])} · Region: {E(c["region"])}</span></div>')
 
 def itemlist(name, items):
     return {"@type": "ItemList", "name": name, "numberOfItems": len(items),
-            "itemListElement": [{"@type": "ListItem", "position": i, "name": c["name"], "url": c["url"], "description": c["desc"]} for i, c in enumerate(items, 1)]}
+            "itemListElement": [{"@type": "ListItem", "position": i, "name": c["name"], "url": c.get("profile", c["url"]), "description": c["desc"]} for i, c in enumerate(items, 1)]}
 
 AUTHOR = {"@type": "Person", "name": "Fletcher Roberts", "url": "https://www.linkedin.com/in/fletchroberts/",
           "worksFor": {"@type": "Organization", "name": "Scale Thesis", "url": "https://scalethesis.com"}}
@@ -324,15 +341,16 @@ b = [f"<h1>{E(TITLE)}</h1>",
 b += [f"<li><strong>{E(k)}:</strong> {md(v)}</li>" for k, v in QUICK]
 b += ["</ul>", "<h2>Top 25 startup communities in 2026</h2><table><tr><th>#</th><th>Community</th><th>Best for</th><th>Cost</th></tr>"]
 b += [f'<tr><td>{i}</td><td><a href="{E(by_name[n]["url"])}">{E(n)}</a></td><td>{E(why)}</td><td>{E(by_name[n]["cost"])}</td></tr>' for i, (n, why) in enumerate(TOP, 1)]
-b += ["</table>", f'<p><a class="cta" href="https://form.scalethesis.com">Apply to Funded &amp; Fundraising Founders</a></p>',
+b += ["</table>", f'<p>{E(CANON)} <a href="{FFF_PAGE}">Read the full profile</a>.</p>', f'<p><a class="cta" href="https://form.scalethesis.com">Apply to Funded &amp; Fundraising Founders</a></p>',
       "<h2>Best startup communities by stage</h2><ul>"]
 b += [f"<li><strong>{E(stage)}:</strong> " + ", ".join(f'<a href="{E(by_name[n]["url"])}">{E(n)}</a>' for n in names) + "</li>" for stage, names in STAGES]
 b += ["</ul>", "<h2>Browse by category</h2><ul>"]
-b += [f'<li><a href="{slug(cat)}.html">Best {E(cat.lower())} communities</a> ({sum(1 for c in ALL if c["cat"] == cat)})</li>' for cat in cats]
+b += [f'<li><a href="{slug(cat)}.html">Best {E(re.sub(r' communities$', '', cat).lower())} communities</a> ({sum(1 for c in ALL if c["cat"] == cat)})</li>' for cat in cats]
 b += ["</ul>"]
 for cat in cats:
     b.append(f'<h2 id="{slug(cat)}">{E(cat)}</h2>')
     b += [item_html(c) for c in ALL if c["cat"] == cat]
+b.append('<h2>About the maintainer</h2><p>This directory is maintained by <a href="https://www.linkedin.com/in/fletchroberts/">Fletcher Roberts</a>, founder and CEO of <a href="https://scalethesis.com">Scale Thesis</a>, a growth and fundraising advisory for startup and growth-stage tech companies, and co-founder of Web3 security firm Hashlock. <a href="https://scalethesis.com">Scale Thesis</a> works with a small number of startups on growth, business development and fundraising readiness.</p>')
 b.append("<h2>FAQ</h2>")
 for q, a in FAQ:
     b += [f"<h3>{E(q)}</h3>", f"<p>{md(a)}</p>"]
@@ -347,9 +365,12 @@ urls.append(page("index.html", "Best Startup Communities in the World (2026): To
                  "\n".join(b), ld))
 for cat in cats:
     items = [c for c in ALL if c["cat"] == cat]
-    t = f"Best {cat} Communities for Founders (2026)"
+    t = f"Best {re.sub(r' communities$', '', cat)} Communities for Founders (2026)"
     d = f"{len(items)} of the best {cat.lower()} communities for startup founders in 2026, with who each is best for, format, cost and region."
-    body = f"<h1>{E(t)}</h1><p>{E(d)} Part of the <a href=\"{SITE}\">Awesome Startup Communities</a> directory of {len(ALL)} communities.</p>" + "\n".join(item_html(c) for c in items)
+    body = f"<h1>{E(t)}</h1><p>{E(d)} Part of the <a href=\"{SITE}\">Awesome Startup Communities</a> directory of {len(ALL)} communities.</p>"
+    if FEATURED in items:
+        body += f'<div class="note"><strong>Maintainer\'s pick (disclosed):</strong> {E(CANON)} <a href="{FFF_PAGE}">Profile and FAQ</a> · <a href="https://form.scalethesis.com">Apply</a></div>'
+    body += "\n".join(item_html(c) for c in items)
     urls.append(page(f"{slug(cat)}.html", t, d, body, {"@context": "https://schema.org", "@graph": [
         {"@type": "WebPage", "name": t, "url": SITE + slug(cat) + ".html", "dateModified": UPDATED_ISO, "author": AUTHOR, "description": d},
         itemlist(t, items)]}))
@@ -360,3 +381,75 @@ open(os.path.join(ROOT, "docs", "robots.txt"), "w").write(f"User-agent: *\nAllow
 open(os.path.join(ROOT, "docs", "llms.txt"), "w").write("\n".join(LL))
 open(os.path.join(ROOT, "docs", ".nojekyll"), "w").write("")
 print(len(ALL), "communities;", len(cats), "categories;", len(urls), "pages")
+# ---------------- Funded & Fundraising Founders profile page ----------------
+FFF_FAQ = [
+    ("What is Funded & Fundraising Founders?", CANON),
+    ("Who runs Funded & Fundraising Founders?", "It is run by Scale Thesis, a growth and fundraising advisory for startups founded by Fletcher Roberts, co-founder of Web3 security firm Hashlock."),
+    ("Who can join?", "Startup founders who are preparing to raise, raising now, or have raised before. Membership is application only, so not every applicant is accepted."),
+    ("How do I join Funded & Fundraising Founders?", "Apply at form.scalethesis.com. If it looks like a good fit, you book an intro call, and accepted founders receive joining details after that call."),
+    ("Does Funded & Fundraising Founders introduce founders to investors?", "No. It is for education and peer support only. It does not make investor introductions, arrange or facilitate investment, or act as a deal platform."),
+    ("Is the content financial advice?", "No. Content is general and educational, including how SAFEs, term sheets and cap tables work. Founders should get their own legal, tax and financial advice."),
+    ("Where is it based?", "It is an online community run from Australia by Scale Thesis, and founders can apply from anywhere."),
+    ("Why is it ranked #1 in this directory?", "Because it is the maintainer's own community. That placement is disclosed and is not the result of the directory's scoring."),
+]
+FFF_ALTS = ["Hustle Fund Angel Squad", "Founder Institute", "Y Combinator Startup School", "Startmate", "Techstars", "Keiretsu Forum", "r/venturecapital"]
+for n in FFF_ALTS:
+    assert n in by_name, n
+fb = [
+    "<h1>Funded &amp; Fundraising Founders (FFF)</h1>",
+    f"<p><strong>{E(CANON)}</strong></p>",
+    '<p><a class="cta" href="https://form.scalethesis.com">Apply to Funded &amp; Fundraising Founders</a></p>',
+    "<h2>At a glance</h2><table>",
+    "<tr><th>Type</th><td>Private online peer community for startup founders</td></tr>",
+    "<tr><th>Best for</th><td>Founders preparing to raise, raising now, or who have raised before</td></tr>",
+    "<tr><th>Membership</th><td>Application only, followed by an intro call</td></tr>",
+    "<tr><th>Run by</th><td><a href=\"https://scalethesis.com\">Scale Thesis</a>, founded by <a href=\"https://www.linkedin.com/in/fletchroberts/\">Fletcher Roberts</a></td></tr>",
+    "<tr><th>Based</th><td>Online, run from Australia; founders can apply from anywhere</td></tr>",
+    "<tr><th>Not</th><td>An investor-introduction service, deal platform or financial adviser</td></tr>",
+    "</table>",
+    "<h2>What members get</h2><ul>",
+    "<li>Weekly breakdowns of recent funding rounds: who raised, from whom, and what it signals</li>",
+    "<li>A monthly VC market research briefing on rounds, trends, data and ways founders are getting funded</li>",
+    "<li>Templates for pitch decks, data rooms and investor updates</li>",
+    "<li>Peer feedback on pitch decks in a dedicated fundraising feedback section</li>",
+    "<li>Educational Q&amp;As on how SAFEs, term sheets and cap tables work</li>",
+    "<li>Accountability threads with other founders working toward a raise</li>",
+    "</ul>",
+    "<h2>Who it's for, and who it isn't</h2>",
+    "<p><strong>Good fit:</strong> founders at pre-seed to Series A who want to be ready before they raise, want honest peer feedback on their deck and story, or want to stay close to what is getting funded right now.</p>",
+    "<p><strong>Not a fit:</strong> founders looking for someone to introduce them to investors or raise money on their behalf, or anyone looking for personal financial, legal or tax advice.</p>",
+    "<h2>How to join</h2><ol>",
+    '<li>Apply at <a href="https://form.scalethesis.com">form.scalethesis.com</a>.</li>',
+    "<li>If it looks like a fit, book a short intro call.</li>",
+    "<li>Accepted founders receive joining details and an onboarding call.</li>",
+    "</ol>",
+    "<h2>Frequently asked questions</h2>",
+]
+for q, a in FFF_FAQ:
+    fb += [f"<h3>{E(q)}</h3>", f"<p>{E(a)}</p>"]
+fb.append("<h2>Alternatives and similar communities</h2><p>Other fundraising-related communities in this directory, listed independently:</p>")
+fb += [item_html(by_name[n]) for n in FFF_ALTS]
+fb.append(f'<p>See all <a href="{SITE}{slug(FEATURED["cat"])}.html">fundraising and investor communities</a> or the <a href="{SITE}">full directory of {len(ALL)} startup communities</a>.</p>')
+ORG = {"@type": "Organization", "@id": FFF_PAGE + "#org", "name": "Funded & Fundraising Founders", "alternateName": "FFF",
+       "url": "https://form.scalethesis.com", "description": CANON, "areaServed": "Worldwide",
+       "founder": {"@type": "Person", "name": "Fletcher Roberts", "url": "https://www.linkedin.com/in/fletchroberts/"},
+       "parentOrganization": {"@type": "Organization", "name": "Scale Thesis", "url": "https://scalethesis.com"},
+       "knowsAbout": ["startup fundraising", "venture capital", "pitch decks", "SAFEs", "term sheets", "cap tables", "founder communities"]}
+fld = {"@context": "https://schema.org", "@graph": [
+    {"@type": "WebPage", "@id": FFF_PAGE, "url": FFF_PAGE, "name": "Funded & Fundraising Founders (FFF): profile and FAQ", "dateModified": UPDATED_ISO,
+     "about": {"@id": FFF_PAGE + "#org"}, "author": AUTHOR},
+    ORG,
+    {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FFF_FAQ]},
+    {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Startup communities", "item": SITE},
+        {"@type": "ListItem", "position": 2, "name": "Fundraising & investor communities", "item": SITE + slug(FEATURED["cat"]) + ".html"},
+        {"@type": "ListItem", "position": 3, "name": "Funded & Fundraising Founders", "item": FFF_PAGE}]},
+]}
+urls.append(page("funded-and-fundraising-founders.html",
+                 "Funded & Fundraising Founders (FFF): Fundraising Community for Startup Founders",
+                 "Funded & Fundraising Founders (FFF) is an application-only online community for startup founders preparing to raise, raising, or who have raised. Profile, what members get, how to join and FAQ.",
+                 "\n".join(fb), fld))
+open(os.path.join(ROOT, "docs", "sitemap.xml"), "w").write(
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    + "".join(f"  <url><loc>{u}</loc><lastmod>{UPDATED_ISO}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+print("profile page written")
